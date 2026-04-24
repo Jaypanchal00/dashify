@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashify — Streamline Your Growing Startup</title>
+    <meta name="description" content="Onboard employees in minutes, track projects, and manage team performance with Dashify.">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg py-3 mt-2 mx-lg-5 mx-3 rounded-pill bg-white shadow-sm px-4 custom-nav">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center fw-bold fs-4 text-dark" href="#">
+                <img src="images/Logo.svg" alt="Dashify Logo" height="30">
+            </a>
+
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto gap-lg-3 fw-medium">
+                    <li class="nav-item"><a class="nav-link text-secondary" href="#">Features</a></li>
+                    <li class="nav-item"><a class="nav-link text-secondary" href="#">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link text-secondary" href="#">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link text-secondary" href="#">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link text-secondary" href="#">Contact Us</a></li>
+                </ul>
+                <div class="d-flex flex-column flex-lg-row gap-2 gap-lg-3 align-items-stretch align-items-lg-center mt-3 mt-lg-0">
+                    <a href="#" class="btn btn-outline-primary rounded-pill px-4 fw-medium btn-login">Log In</a>
+                    <a href="#" class="btn btn-primary rounded-pill px-4 fw-medium btn-get-started">
+                        Get Started <i class="fa-solid fa-arrow-right ms-1"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section position-relative d-flex align-items-center justify-content-center text-center">
+
+        <!-- Floating: Team List (left) -->
+        <div class="floating-img float-1 d-none d-lg-block">
+            <div class="team-card">
+                <h6 class="fw-bold mb-3">Team List</h6>
+                <div class="team-row">
+                    <img src="https://i.pravatar.cc/100?img=5" alt="">
+                    <span class="name">Dianne Russell</span>
+                    <span class="badge-tag bg-marketing">Marketing</span>
+                </div>
+                <div class="team-row">
+                    <img src="https://i.pravatar.cc/100?img=12" alt="">
+                    <span class="name">Bessie Cooper</span>
+                    <span class="badge-tag bg-design">Design</span>
+                </div>
+                <div class="team-row">
+                    <img src="https://i.pravatar.cc/100?img=14" alt="">
+                    <span class="name">Floyd Miles</span>
+                    <span class="badge-tag bg-finance">Finance</span>
+                </div>
+                <div class="team-row">
+                    <img src="https://i.pravatar.cc/100?img=20" alt="">
+                    <span class="name">Esther Howard</span>
+                    <span class="badge-tag bg-dev">Development</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Floating: Analytics Reports (right) -->
+        <div class="floating-img float-2 d-none d-lg-block">
+            <div class="analytics-card-img" style="width: 320px; border-radius: 16px; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.1);">
+                <img src="images/Frame 43.png" alt="Analytics Reports" class="img-fluid">
+            </div>
+        </div>
+
+        <!-- Floating: Employees (bottom-left) -->
+        <div class="floating-img float-3 d-none d-lg-block">
+            <div class="employees-card-img" style="width: 320px; border-radius: 16px; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.1);">
+                <img src="images/First.png" alt="Employees" class="img-fluid">
+            </div>
+        </div>
+
+
+
+        <!-- Hero content -->
+        <div class="container position-relative z-1">
+            <div class="row justify-content-center">
+                <div class="col-lg-7 col-md-10 px-4">
+                    <h1 class="fw-bold mb-4 hero-title text-dark">Streamline Your<br>Growing Startup</h1>
+                    <p class="text-secondary mb-5 hero-subtitle">
+                        Say goodbye to admin headaches and say hello to efficiency. Onboard your employees in minutes,
+                        track company projects, and manage team performance. We've got you covered.
+                    </p>
+
+                    <div class="d-flex flex-wrap justify-content-center gap-3 mb-5">
+                        <a href="#" class="btn btn-primary rounded-pill px-4 py-2 fw-medium btn-get-started">
+                            Get Started <i class="fa-solid fa-arrow-right ms-1"></i>
+                        </a>
+                        <a href="#" class="btn rounded-pill px-4 py-2 fw-medium btn-learn-more">Learn More</a>
+                    </div>
+
+                    <div class="d-flex justify-content-center mt-4">
+                        <img src="images/Frame 37.png" alt="50K Users" style="max-width: 320px;">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile/Tablet stacked previews -->
+            <div class="row g-4 mt-5 d-lg-none justify-content-center mobile-cards">
+                <div class="col-sm-6 d-flex justify-content-center">
+                    <div class="team-card">
+                        <h6 class="fw-bold mb-3">Team List</h6>
+                        <div class="team-row"><img src="https://i.pravatar.cc/100?img=5" alt=""><span class="name">Dianne Russell</span><span class="badge-tag bg-marketing">Marketing</span></div>
+                        <div class="team-row"><img src="https://i.pravatar.cc/100?img=12" alt=""><span class="name">Bessie Cooper</span><span class="badge-tag bg-design">Design</span></div>
+                        <div class="team-row"><img src="https://i.pravatar.cc/100?img=14" alt=""><span class="name">Floyd Miles</span><span class="badge-tag bg-finance">Finance</span></div>
+                        <div class="team-row"><img src="https://i.pravatar.cc/100?img=20" alt=""><span class="name">Esther Howard</span><span class="badge-tag bg-dev">Development</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6 d-flex justify-content-center">
+                    <div class="widget-card employees-card" style="transform:none">
+                        <div class="d-flex align-items-center gap-2 mb-3">
+                            <div class="icon-wrap"><img src="images/Frame 14.png" alt="" style="width:22px;height:22px"></div>
+                            <span class="widget-title mb-0">Employees</span>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-end">
+                            <div>
+                                <h2 class="fw-bold mb-1">340</h2>
+                                <div class="text-success small fw-medium">
+                                    <i class="fa-solid fa-arrow-trend-up me-1"></i>07.50%
+                                    <span class="text-secondary fw-normal">Last 6 days</span>
+                                </div>
+                            </div>
+                            <div class="sparkline-container ms-3 position-relative">
+                                <img src="images/Vector (1).png" alt="" class="position-absolute start-0 top-0 w-100 h-100" style="opacity:.6">
+                                <img src="images/Vector.png" alt="" class="position-absolute start-0 top-0 w-100 h-100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="widget-card analytics-card" style="transform:none">
+                        <div class="widget-header">
+                            <span class="widget-title">Analytics Reports</span>
+                            <i class="fa-solid fa-ellipsis text-secondary small"></i>
+                        </div>
+                        <div class="text-center mb-3">
+                            <img src="images/Frame 8.png" alt="" class="img-fluid" style="max-width:170px">
+                        </div>
+                        <img src="images/Frame 12.png" alt="" class="img-fluid w-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trusted By Section -->
+    <section class="trusted-by py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h5 class="trusted-title">Trusted by 8,000 leading companies</h5>
+            </div>
+            <div class="row row-cols-2 row-cols-md-4 g-4 g-lg-5 align-items-center justify-content-center logo-grid">
+                <div class="col text-center">
+                    <img src="images/logo-emfire.png" alt="EMFIRE" class="logo-img">
+                </div>
+                <div class="col text-center">
+                    <img src="images/logo-anove.png" alt="anove" class="logo-img">
+                </div>
+                <div class="col text-center">
+                    <img src="images/logo-fls.png" alt="FLS" class="logo-img">
+                </div>
+                <div class="col text-center">
+                    <img src="images/logo-genesis.png" alt="Genesis Developments" class="logo-img">
+                </div>
+                <div class="col text-center">
+                    <img src="images/logo-bxc.png" alt="BXC Consulting" class="logo-img">
+                </div>
+                <div class="col text-center">
+                    <img src="images/logo-twins.png" alt="twins" class="logo-img">
+                </div>
+                <div class="col text-center">
+                    <img src="images/logo-playearnode.png" alt="Playearnode" class="logo-img">
+                </div>
+                <div class="col text-center">
+                    <img src="images/logo-infibeam.png" alt="Infibeam Avenues" class="logo-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section py-4">
+        <div class="container py-lg-4">
+            <div class="text-center mb-5">
+                <h2 class="section-title fw-bold mb-3">Dashify is built for you</h2>
+                <p class="section-subtitle text-secondary mx-auto">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum<br class="d-none d-md-block">
+                    has been the industry's standard dummy text ever since the 1500s.
+                </p>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <!-- Card 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card h-100">
+                        <div class="icon-box shadow-sm">
+                            <img src="images/Streak.png" alt="Lightning Bolt">
+                        </div>
+                        <h4 class="feature-heading fw-bold">Streamline your work</h4>
+                        <p class="feature-text text-secondary">
+                            Centralize your team management. Manage your entire team in one tool. Easy communication, project management, and smooth collaboration with your team.
+                        </p>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card h-100">
+                        <div class="icon-box shadow-sm">
+                            <img src="images/Pin.png" alt="Puzzle Piece">
+                        </div>
+                        <h4 class="feature-heading fw-bold">Work with your favorite tools</h4>
+                        <p class="feature-text text-secondary">
+                            Integrate quickly and directly with your tools you already love. It's as easy as 1, 2, 3.
+                        </p>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card h-100">
+                        <div class="icon-box shadow-sm">
+                            <img src="images/Timer.png" alt="Clock">
+                        </div>
+                        <h4 class="feature-heading fw-bold">Save hours every week</h4>
+                        <p class="feature-text text-secondary">
+                            Efficiency starts here. Streamline your work with our project tracking features. Simplify tasks and maximize productivity.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Powerful Features Section -->
+    <section class="powerful-features py-4">
+        <div class="container py-lg-4">
+            <div class="text-center mb-5 pb-lg-4">
+                <h2 class="section-title mb-3">Powerful features</h2>
+                <p class="section-subtitle text-secondary mx-auto">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum<br class="d-none d-md-block">
+                    has been the industry's standard dummy text ever since the 1500s.
+                </p>
+            </div>
+
+            <!-- Block 1 -->
+            <div class="row align-items-center mb-5 g-5">
+                <div class="col-lg-6">
+                    <div class="ps-lg-4">
+                        <span class="badge rounded-pill px-3 py-2 mb-3 badge-soft-blue">Easy admin</span>
+                        <h2 class="fw-bold mb-4 display-5">Take the pain out of<br>company admin</h2>
+                        <p class="text-secondary fs-5 mb-0">
+                            Eliminate the hassle, nobody wants it. Take the pain out of company admin with our all-in-one platform. Simplify projects and focus on what really drives your business forward.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="feature-block-img p-5 position-relative">
+
+                        <div class="main-widget shadow-lg rounded-4 overflow-hidden">
+                            <img src="images/Frame 245.png" alt="Analytics Reports" class="img-fluid w-100">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Block 3: Ready for scale -->
+            <div class="row align-items-center flex-lg-row-reverse g-5 pt-lg-5">
+                <div class="col-lg-6">
+                    <div class="ps-lg-5">
+                        <span class="badge rounded-pill px-3 py-2 mb-3 badge-soft-blue">Ready for scale</span>
+                        <h2 class="fw-bold mb-4 display-5">Grow with your<br>Business</h2>
+                        <p class="text-secondary fs-5 mb-0">
+                            Now you can grow confidently, nothing holding you back. Our platform grows as you grow. Adapting to your needs. Scale from a pre-seed startup to public company with Dashify.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="feature-block-img position-relative" style="background-color: #F8FAFF; border: none;">
+                        <!-- Grid squares -->
+                        <div class="position-absolute" style="top: 20px; right: 20px; width: 60px; height: 60px; background: rgba(255,255,255,0.8); border-radius: 8px;"></div>
+                        <div class="position-absolute" style="top: 80px; right: 80px; width: 60px; height: 60px; background: rgba(255,255,255,0.4); border-radius: 8px;"></div>
+                        <div class="position-absolute" style="bottom: 20px; left: 20px; width: 60px; height: 60px; background: rgba(255,255,255,0.6); border-radius: 8px;"></div>
+                        
+                        <!-- Growth Widget -->
+                        <div class="growth-widget shadow-lg rounded-4 overflow-hidden position-absolute" style="z-index: 3; width: 240px; top: 60px; left: 40px;">
+                            <img src="Frame 218.png" alt="Growth" class="img-fluid">
+                        </div>
+
+
+
+                        <!-- Employees Widget -->
+                        <div class="employees-widget shadow-lg rounded-4 overflow-hidden position-absolute" style="z-index: 2; width: 300px; bottom: 60px; right: 40px;">
+                            <img src="Frame 40.png" alt="Employees" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- Block 4: Central Platform -->
+            <div class="row align-items-center g-5 pt-lg-5 mt-5">
+                <div class="col-lg-6">
+                    <div class="ps-lg-5">
+                        <span class="badge rounded-pill px-3 py-2 mb-3 badge-soft-blue">Central Platform</span>
+                        <h2 class="fw-bold mb-4 display-5">Manage your team in<br>one place</h2>
+                        <p class="text-secondary fs-5 mb-0">
+                            Centralize your team management. Manage your entire team in one tool. Easy communication, project management, and smooth collaboration with your team.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="feature-block-img position-relative" style="background-color: #F3F6FF; border: none; padding: 4rem !important;">
+                        <!-- Grid squares -->
+                        <div class="position-absolute" style="top: 20px; right: 20px; width: 60px; height: 60px; background: rgba(255,255,255,0.8); border-radius: 8px;"></div>
+                        <div class="position-absolute" style="bottom: 20px; left: 20px; width: 60px; height: 60px; background: rgba(255,255,255,0.6); border-radius: 8px;"></div>
+                        
+                        <div class="main-widget shadow-lg rounded-4 overflow-hidden position-relative" style="z-index: 2;">
+                            <img src="images/Frame 9.png" alt="Team Management" class="img-fluid w-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section py-4">
+        <div class="container py-lg-4">
+            <div class="text-center mb-5">
+                <h2 class="section-title fw-bold">What our customer say</h2>
+            </div>
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card">
+                        <div class="d-flex align-items-center gap-3 mb-4">
+                            <img src="images/user-avatar.png" alt="Emily Chang" class="testimonial-avatar">
+                            <div>
+                                <h6 class="fw-bold mb-0">Emily Chang</h6>
+                                <span class="text-secondary small">CEO & Founder</span>
+                            </div>
+                        </div>
+                        <p class="testimonial-text text-secondary mb-4">
+                            As a remote team, Dashify has been a game-changer for us. It's communication features keep us connected and organized, no matter where we are.
+                        </p>
+                        <div class="stars text-warning">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card">
+                        <div class="d-flex align-items-center gap-3 mb-4">
+                            <img src="images/user-avatar.png" alt="Floyd Miles" class="testimonial-avatar">
+                            <div>
+                                <h6 class="fw-bold mb-0">Floyd Miles</h6>
+                                <span class="text-secondary small">CEO & Founder</span>
+                            </div>
+                        </div>
+                        <p class="testimonial-text text-secondary mb-4">
+                            As a remote team, Dashify has been a game-changer for us. It's communication features keep us connected and organized, no matter where we are.
+                        </p>
+                        <div class="stars text-warning">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card">
+                        <div class="d-flex align-items-center gap-3 mb-4">
+                            <img src="images/user-avatar.png" alt="Emily Chang" class="testimonial-avatar">
+                            <div>
+                                <h6 class="fw-bold mb-0">Emily Chang</h6>
+                                <span class="text-secondary small">CEO & Founder</span>
+                            </div>
+                        </div>
+                        <p class="testimonial-text text-secondary mb-4">
+                            As a remote team, Dashify has been a game-changer for us. It's communication features keep us connected and organized, no matter where we are.
+                        </p>
+                        <div class="stars text-warning">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="col-lg-6 col-md-6">
+                    <div class="testimonial-card">
+                        <div class="d-flex align-items-center gap-3 mb-4">
+                            <img src="images/user-avatar.png" alt="Emily Chang" class="testimonial-avatar">
+                            <div>
+                                <h6 class="fw-bold mb-0">Emily Chang</h6>
+                                <span class="text-secondary small">CEO & Founder</span>
+                            </div>
+                        </div>
+                        <p class="testimonial-text text-secondary mb-4">
+                            Thanks to Dashify, we've seen a significant increase in productivity. It's seamless integration with our existing tools has streamlined our processes and saved us valuable time.
+                        </p>
+                        <div class="stars text-warning">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="col-lg-6 col-md-6">
+                    <div class="testimonial-card">
+                        <div class="d-flex align-items-center gap-3 mb-4">
+                            <img src="images/user-avatar.png" alt="Samantha" class="testimonial-avatar">
+                            <div>
+                                <h6 class="fw-bold mb-0">Samantha</h6>
+                                <span class="text-secondary small">CEO & Founder</span>
+                            </div>
+                        </div>
+                        <p class="testimonial-text text-secondary mb-4">
+                            Thanks to Dashify, we've seen a significant increase in productivity. It's seamless integration with our existing tools has streamlined our processes and saved us valuable time.
+                        </p>
+                        <div class="stars text-warning">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section py-5" id="pricing">
+        <div class="container py-lg-5">
+            <div class="text-center mb-5">
+                <h2 class="section-title fw-bold mb-3">Transparent pricing for you<br>and your team</h2>
+                <p class="section-subtitle text-secondary mx-auto mb-4">
+                    Transparent pricing, with clear, accessible rates. Everyone can focus<br class="d-none d-md-block">
+                    on what matters most — achieving your goals.
+                </p>
+                
+                <div class="d-flex align-items-center justify-content-center gap-3 mt-4 position-relative">
+                    <span class="fw-medium">Monthly</span>
+                    <div class="form-check form-switch pricing-switch mb-0">
+                        <input class="form-check-input" type="checkbox" role="switch" id="pricingToggle">
+                    </div>
+                    <span class="text-primary fw-medium">Yearly</span>
+                    <span class="badge bg-success-soft text-success rounded-pill px-2 py-1">-10%</span>
+                </div>
+            </div>
+
+            <div class="row g-4 justify-content-center mt-4">
+                <!-- Basic -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card h-100">
+                        <div class="pricing-header mb-4">
+                            <h6 class="fw-bold text-dark">Basic</h6>
+                            <h2 class="price fw-bold mb-0 text-dark">$26<span class="fs-6 text-secondary fw-normal"> / mo</span></h2>
+                        </div>
+                        <ul class="pricing-features list-unstyled mb-5">
+                            <li><i class="fa-solid fa-circle-check me-2 text-primary"></i> 2 seats</li>
+                            <li><i class="fa-solid fa-circle-check me-2 text-primary"></i> Simple support</li>
+                            <li><i class="fa-solid fa-circle-check me-2 text-primary"></i> Simple onboarding features</li>
+                        </ul>
+                        <div class="mt-auto">
+                            <a href="#" class="btn btn-soft-blue w-100 rounded-pill py-2">Choose plan <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pro -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card popular h-100 position-relative overflow-hidden">
+                        <div class="d-flex justify-content-between align-items-start mb-4">
+                            <div class="pricing-header">
+                                <h6 class="fw-bold text-white">Pro</h6>
+                                <h2 class="price fw-bold mb-0 text-white">$49<span class="fs-6 text-white-50 fw-normal"> / mo</span></h2>
+                            </div>
+                            <span class="badge bg-white text-primary rounded-pill px-3 py-2">Popular</span>
+                        </div>
+                        <ul class="pricing-features list-unstyled mb-5">
+                            <li><i class="fa-solid fa-circle-check me-2 text-white"></i> 5 seats</li>
+                            <li><i class="fa-solid fa-circle-check me-2 text-white"></i> Expert support</li>
+                            <li><i class="fa-solid fa-circle-check me-2 text-white"></i> Monthly payroll</li>
+                            <li><i class="fa-solid fa-circle-check me-2 text-white"></i> Third party integrations</li>
+                            <li><i class="fa-solid fa-circle-check me-2 text-white"></i> Advanced onboarding features</li>
+                        </ul>
+                        <div class="mt-auto">
+                            <a href="#" class="btn btn-white w-100 rounded-pill py-2 text-primary fw-bold">Choose plan <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Enterprise -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card h-100">
+                        <div class="pricing-header mb-4">
+                            <h6 class="fw-bold text-dark">Enterprise</h6>
+                            <h2 class="price fw-bold mb-0 text-dark">$179<span class="fs-6 text-secondary fw-normal"> / mo</span></h2>
+                        </div>
+                        <ul class="pricing-features list-unstyled mb-5">
+                            <li><i class="fa-solid fa-circle-check me-2 text-primary"></i> Unlimited seats</li>
+                            <li><i class="fa-solid fa-circle-check me-2 text-primary"></i> Priority 1-1 support</li>
+                            <li><i class="fa-solid fa-circle-check me-2 text-primary"></i> Monthly payroll</li>
+                            <li><i class="fa-solid fa-circle-check me-2 text-primary"></i> Third party integrations</li>
+                            <li><i class="fa-solid fa-circle-check me-2 text-primary"></i> Advanced onboarding features</li>
+                            <li><i class="fa-solid fa-circle-check me-2 text-primary"></i> Dedicated HR expert</li>
+                            <li><i class="fa-solid fa-circle-check me-2 text-primary"></i> Custom admin permission</li>
+                        </ul>
+                        <div class="mt-auto">
+                            <a href="#" class="btn btn-soft-blue w-100 rounded-pill py-2">Choose plan <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section py-5">
+        <div class="container py-lg-5">
+            <div class="row g-5">
+                <!-- FAQ Header -->
+                <div class="col-lg-5">
+                    <h2 class="display-5 fw-bold mb-4">Frequently asked<br>questions</h2>
+                    <p class="text-secondary fs-5">
+                        Have questions? We've got answers. For everything else email us on <a href="mailto:hi@gmail.com" class="text-primary text-decoration-none">hi@gmail.com</a>
+                    </p>
+                </div>
+
+                <!-- FAQ Accordion -->
+                <div class="col-lg-7">
+                    <div class="accordion accordion-flush" id="faqAccordion">
+                        <!-- Item 1 -->
+                        <div class="accordion-item mb-3 border-0">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button rounded-4" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    How does Dashify work?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-secondary">
+                                    Dashify is like your team's HQ. It brings all your communication, tasks, and files together in one easy-to-use place. It helps you work better together and get stuff done faster.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 2 -->
+                        <div class="accordion-item mb-3 border-0">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    Is my data secure?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-secondary">
+                                    Yes, we prioritize security. Your data is encrypted and stored in secure data centers.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 3 -->
+                        <div class="accordion-item mb-3 border-0">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    Does Dashify work well for large teams?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-secondary">
+                                    Absolutely! Dashify is designed to scale with your business, from small startups to large enterprises.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 4 -->
+                        <div class="accordion-item mb-3 border-0">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    How do I create a new account?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-secondary">
+                                    You can sign up directly on our website by clicking the "Get Started" button.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer & CTA Combined -->
+    <footer class="footer-section pt-4 pb-4 mt-3">
+        <div class="container py-lg-3">
+            <!-- CTA Banner -->
+            <div class="cta-banner p-4 text-white text-center position-relative overflow-hidden mb-4">
+                <div class="row justify-content-center position-relative" style="z-index: 2;">
+                    <div class="col-lg-8">
+                        <h2 class="fw-bold mb-2" style="font-size: 2.25rem;">Ready to get started?</h2>
+                        <p class="fs-6 opacity-75 mb-4">Take the first step to growing your business</p>
+                        <a href="#" class="btn btn-white px-5 py-3 fw-bold text-primary text-decoration-none" style="border-radius: 12px;">Get Started</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Main Content -->
+            <div class="footer-main-content d-flex flex-column flex-lg-row justify-content-between align-items-center align-items-lg-start mt-3 pt-lg-3 mb-3">
+                <div class="footer-logo d-flex align-items-center mb-4 mb-lg-0">
+                    <img src="images/Logo.png" alt="Dashify" width="240">
+                </div>
+                <div class="footer-navigation d-flex flex-column align-items-center align-items-lg-end gap-3">
+                    <ul class="list-unstyled footer-links d-flex flex-wrap justify-content-center justify-content-lg-end gap-4 mb-0">
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                    <ul class="list-unstyled footer-links d-flex flex-wrap justify-content-center justify-content-lg-end gap-4 mb-0">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="row align-items-end mt-3">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <p class="text-secondary mb-0">© 2025 Dashify. All rights reserved.</p>
+                </div>
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <div class="d-flex flex-wrap justify-content-center justify-content-lg-end gap-4 footer-socials">
+                        <a href="#">Twitter</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">YouTube</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
